@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signuppage"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="login"
+                android:textColorHint="#03A9F4"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="#2196F3"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                >
+                <EditText
+                    android:id="@+id/edittextusernameid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/username"
+                    android:drawablePadding="10dp"
+                    android:hint="User Name"
+                    android:textAllCaps="true"
+                    android:inputType="textPersonName"/>
+                <EditText
+                    android:id="@+id/edittextpasswordbuttonid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/password"
+                    android:drawablePadding="10dp"
+                    android:hint="Password"
+                    android:textAllCaps="true"
+                    android:inputType="textPassword"/>
+                <Button
+                    android:id="@+id/loginbuttonid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="login"
+                    android:textColor="#FFFFFF"
+                    android:backgroundTint="#2196F3"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account ?"
+        />
+    <Button
+        android:id="@+id/signupbuttonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="craete an account"
+        android:backgroundTint="#2196F3"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Createaccountpage"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create an account"
+        android:textColorHint="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#2196F3"
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        app:cardElevation="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:id="@+id/fullnameidet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/username"
+                android:drawablePadding="10dp"
+                />
+            <EditText
+                android:id="@+id/phonenumberidet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:inputType="number"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/contact"
+                />
+            <EditText
+                android:id="@+id/emailidet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/email"
+                />
+            <EditText
+                android:id="@+id/dobetid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date of Birth"
+                android:inputType="date"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/calender"
+                />
+            <EditText
+                android:id="@+id/nidnumberidet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NID Number"
+                android:inputType="number"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/nid"
+                />
+            <ImageButton
+                android:id="@+id/camerabuttonid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:src="@drawable/camera"
+                android:backgroundTint="#ffff"
+                android:padding="10dp"
+                />
+            <EditText
+                android:id="@+id/passwordetid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/password"
+                />
+            <EditText
+                android:id="@+id/confirmpassetid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/password"
+
+                />
+            <CheckBox
+                android:id="@+id/checkboxid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I agree with terms and condition."
+                android:padding="10dp"
+                />
+            <Button
+                android:visibility="invisible"
+                android:id="@+id/signupbuttonid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:text="Signup"
+                android:backgroundTint="#2196F3"
+                />
+
+
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
