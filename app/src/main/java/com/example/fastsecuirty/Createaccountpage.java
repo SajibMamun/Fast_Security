@@ -24,7 +24,7 @@ public class Createaccountpage extends AppCompatActivity {
         camera = findViewById(R.id.camerabuttonid);
         checkbox = findViewById(R.id.checkboxid);
         signup = findViewById(R.id.signupbuttonid);
-
+        getSupportActionBar().setTitle("Sign Up Page");
         checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
