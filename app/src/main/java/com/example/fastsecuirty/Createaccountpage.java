@@ -16,6 +16,7 @@ public class Createaccountpage extends AppCompatActivity {
     CheckBox checkbox;
     Button signup;
     ImageButton camera;
+  
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
