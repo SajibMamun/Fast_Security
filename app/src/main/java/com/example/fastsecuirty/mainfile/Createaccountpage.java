@@ -1,4 +1,4 @@
-package com.example.fastsecuirty;
+package com.example.fastsecuirty.mainfile;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,8 +9,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
-import android.widget.EditText;
 import android.widget.ImageButton;
+
+import com.example.fastsecuirty.R;
 
 public class Createaccountpage extends AppCompatActivity {
     CheckBox checkbox;

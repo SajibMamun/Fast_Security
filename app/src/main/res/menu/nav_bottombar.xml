@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+     android:title="Home"
+        android:id="@+id/homeid"
+        android:icon="@drawable/home"
+        />
+    <item
+        android:title="Permission"
+        android:id="@+id/permissionid"
+        android:icon="@drawable/permission"/>
+    <item
+        android:id="@+id/settingsid"
+        android:title="Settings"
+        android:icon="@drawable/settings"
+        />
+    <item
+        android:id="@+id/nextpageid"
+        android:title="Next"
+        android:icon="@drawable/next"
+        />
+
+</menu>

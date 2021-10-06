@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FastSecuirty">
-        <activity android:name=".signuppage"></activity>
-        <activity android:name=".profilepage" />
-        <activity android:name=".Createaccountpage" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".mainfile.signuppage"></activity>
+        <activity android:name=".mainfile.profilepage" />
+        <activity android:name=".mainfile.Createaccountpage" />
+        <activity android:name=".mainfile.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

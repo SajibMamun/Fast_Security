@@ -1,10 +1,11 @@
-package com.example.fastsecuirty;
+package com.example.fastsecuirty.mainfile;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+
+import com.example.fastsecuirty.R;
 
 public class MainActivity extends AppCompatActivity {
 
